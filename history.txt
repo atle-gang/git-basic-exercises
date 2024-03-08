@@ -1,0 +1,604 @@
+    1  sudo apt update && sudo apt upgrade -y
+    2  sudo apt install code -y
+    3  sudo apt install -y wget
+    4  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    5  sudo apt-get install ./google-chrome-stable_current_amd64.deb
+    6  git --version
+    7  git config --global user.name asethono023
+    8  git config --global user.email asethono023@student.wethinkcode.co.za
+    9  cd Downloads/
+   10  ls
+   11  wtc-lms -V
+   12  ls
+   13  wtc-lms -V
+   14  cp ~/Downloads/wtc-lms ~/.local/bin/
+   15  mkdir -p ~/.local/bin
+   16  chmod +x ~/.local/bin/wtc-lms
+   17  wtc-lms --version
+   18  cd ~/Downloads
+   19  ls
+   20  touch where_can_install_wtc_lms.sh
+   21  ls
+   22  bash where_can_install_wtc_lms.sh
+   23  which $SHELL
+   24  echo "export PATH=\"\$HOME/.local/bin\:\$PATH\"" >> ~/.bashrc
+   25  wtc-lms --version
+   26  wtc-lms -V
+   27  cd Downloads/
+   28  wtc-lms -V
+   29  cp ~/Downloads/wtc-lms ~/.local/bin/
+   30  chmod +x ~/.local/bin/wtc-lms
+   31  wtc-lms -V
+   32  wtc-lms --version
+   33  cd ~/Downloads/
+   34  wtc-lms --version
+   35  cd ~/Downloads/
+   36  bash where_can_install_wtc_lms.sh 
+   37  bash where_can_install_wtc_lms.sh
+   38  which $SHELL
+   39  wtc-lms --version
+   40  wtc-lms -V
+   41  cd ~/local/bin/
+   42  cd ~/.local/bin/
+   43  ls
+   44  chmod +x ~/.local/bin/wtc-lms
+   45  wtc-lms --version
+   46  cd Downloads/
+   47  ls
+   48  bash where_can_install_wtc_lms.sh
+   49  which $SHELL
+   50  echo "export PATH=\"\$HOME/.local/bin\:\$PATH\"" >> ~/.bashr
+   51  wtc-lms --version
+   52  wtc-lms
+   53  wtc-lms login
+   54  wtc-lms reviews
+   55  cat ~/.ssh/id_rsa.pub
+   56  ssh-keygen
+   57  cd ~/.ssh
+   58  ls
+   59  cat ~/.ssh/id_rsa.pub
+   60  ssh -T git@gitlab.wethinkcode.co.za
+   61  cd
+   62  ssh -T git@gitlab.wethinkcode.co.za
+   63  cat ~/.ssh/id_rsa.pub
+   64  ssh -T git@gitlab.wethinkcode.co.za
+   65  ssh-keygen
+   66  cd ~/.ssh
+   67  ls
+   68  cat ~/.ssh/id_rsa.pub
+   69  cd
+   70  ssh -T git@gitlab.wethinkcode.co.za
+   71  ssh -T git@gitlab.wethinkco.de
+   72  ls
+   73  mkdir student_work
+   74  cd student_work/
+   75  mkdir iteration_6
+   76  cd iteration_6/
+   77  ls
+   78  git clone git@gitlab.wethinkco.de:asethono023/submission_002-robot-4.git
+   79  ls
+   80  cd submission_002-robot-4/
+   81  /bin/python3 /home/pc/student_work/iteration_6/submission_002-robot-4/robot.py
+   82  sudo apt-get install python3-tk
+   83  /bin/python3 /home/pc/student_work/iteration_6/submission_002-robot-4/robot.py
+   84  cd student_work/iteration_6/
+   85  ls
+   86  git clone git@gitlab.wethinkco.de:asethono023/submission_002-robot-4.git
+   87  cd submission_002-robot-4/
+   88  code .
+   89  python3 robot.py turtle
+   90  python3 robot.py 
+   91  git status
+   92  git add .
+   93  git commit -m "Update barrier speed and fill obstacles"
+   94  git push
+   95  git add .
+   96  git commit -m "Create test for test_obstacles"
+   97  git push
+   98  wtc-lms login
+   99  wtc-lms grade awake-fast-honey
+  100  wtc-lms history awake-fast-honey
+  101  wtc-lms reviews
+  102  wtc-lms 
+  103  wtc-lms reviews
+  104  cd student_work/
+  105  ls
+  106  mkdir reviews
+  107  cd reviews/
+  108  mkdir iteration_6
+  109  cd iteration_6/
+  110  touch reviews.txt
+  111  cd ..
+  112  ls
+  113  wtc-lms start near-wiry-clue
+  114  git clone git@gitlab.wethinkco.de:asethono023/submission_001-bugfixer.git
+  115  cd submission_001-bugfixer/
+  116  code .
+  117  cd student_work/iteration_6/submission_001-bugfixer/
+  118  git status
+  119  git add .
+  120  git commit -m "Bug fixer"
+  121  git push
+  122  python3 robot.py 
+  123  python3 -m unittest tests.test_main.MyTestCase.test_step3_default_maze
+  124  python3 robot.py turtle
+  125  python3 robot.py
+  126  python3 robot.py turtle
+  127  python3 robot.py 
+  128  python3 robot.py text
+  129  /bin/python3
+  130  /bin/python3 /home/pc/Downloads/submission_003-robot-5-master/maze/maze.py
+  131  python3 robot.py turtle
+  132  sudo apt update && sudo apt upgrade -y
+  133  sudo apt install vlc
+  134  python3 robot.py turtle
+  135  python3 robot.py
+  136  echo /usr/bin/bash
+  137  python3 robot.py crazy_maze
+  138  python3 robot.py turtle crazy_maze
+  139  python3 robot.py hardcoded_maze
+  140  python3 robot.py turtle hardcoded_maze
+  141  python3 robot.py mazd
+  142  python3 robot.py turtle maze
+  143  python3 robot.py
+  144  /bin/python3 /home/pc/Downloads/submission_003-robot-5-master/world/turtle/world.py
+  145  python3 world.py
+  146  python3 robot.py turtle maze
+  147  python3 robot.py turtle
+  148  python3 robot.py text 
+  149  python3 robot.py text crazy_maze
+  150  python3 robot.py text hardcoded_maze
+  151  echo /usr/bin/bash
+  152  python3 robot.py text
+  153  python3 robot.py text maze
+  154  python3 robot.py 
+  155  python3 robot.py
+  156  python3 robot.py text maze
+  157  python3 robot.py text
+  158  python3 robot.py text maze
+  159  python3 robot.py text
+  160  python3 robot.py maze
+  161  python3 robot.py text maze
+  162  python3 robot.py text maze
+  163  python3 robot.py
+  164  python3 robot.py text
+  165  python3 robot.py text maze
+  166  python3 robot.py
+  167  python3 robot.py turtle
+  168  python3 robot.py
+  169  python3 robot.py turtle
+  170  python3 robot.py text
+  171  python3 robot.py turtle
+  172  python3 robot.py text
+  173  python3 robot.py turtle
+  174  python3 robot.py text maze
+  175  python3 robot.py turtle maze
+  176  python3 robot.py text empty_maze
+  177  python3 robot.py turtle empty_maze
+  178  python3 robot.py text single_maze
+  179  python3 robot.py text single_obstacle
+  180  python3 robot.py turtle single_obstacle
+  181  python3 -m unittest test_world.TestRobotWorld.test_basic_range_and_position
+  182  echo /usr/bin/bash
+  183  /bin/python3 /home/pc/Downloads/jhb_14_code_clinics-main/clinics_main.py
+  184  cd configs/
+  185  sudo apt install pythone3-venv
+  186  sudo apt install python3-venv
+  187  python3 -m venv venv
+  188  . venv/bin/activate
+  189  /bin/python3 /home/pc/Downloads/jhb_14_code_clinics-main/clinics_main.py
+  190  /bin/python3 /home/pc/Downloads/jhb_14_code_clinics-main/configs/install_dependencies.py
+  191  /bin/python3 /home/pc/Downloads/jhb_14_code_clinics-main/clinics_main.py
+  192  /bin/python3 /home/pc/Downloads/jhb_14_code_clinics-main/configs/install_dependencies.py
+  193  /bin/python3 /home/pc/Downloads/jhb_14_code_clinics-main/clinics_main.py
+  194  cd configs/
+  195  python3 -m venv venv
+  196  . venv/bin/activate
+  197  cd .
+  198  cd ..
+  199  cd configs/
+  200  python3 -m venv venv
+  201  . venv/bin/activate
+  202  cd ..
+  203  python3 code_clinics.py
+  204  python3 clinics_main.py
+  205  /bin/python3 /home/pc/Downloads/jhb_14_code_clinics-main/configs/install_dependencies.py
+  206  python3 robot.py turtle
+  207  python3 robot.py
+  208  python3 robot.py turtle
+  209  python3 robot.py
+  210  echo /usr/bin/bash
+  211  python3 robot.py turtle empty_maze
+  212  python3 robot.py turtle single_obstacle
+  213  python3 robot.py text maze
+  214  python3 robot.py text
+  215  python3 robot.py mazerun
+  216  python3 robot.py 
+  217  python3 -m unittest tests.test_main.MyTestCase.test_step3_default_maze
+  218  python3 robot.py 
+  219  python3 -m unittest tests.test_main.TestToyRobot.test_replay_silent
+  220  python3 -m unittest test_robot.TestToyRobot.test_replay_silent
+  221  python3 -m unittest test_robot.TestToyRobot.test_range_4-command
+  222  python3 -m unittest test_robot.TestToyRobot.test_range_4_command
+  223  python3 -m unittest test_robot.TestToyRobot.test_range_4_commands
+  224  python3 robot.py 
+  225  /bin/python3
+  226  python3 robot.py 
+  227  echo /usr/bin/bash
+  228  python3 robot.py text mazerun
+  229  python3 robot.py text maze mazerun
+  230  python3 robot.py text maze 
+  231  echo /usr/bin/bash
+  232  cd Desktop/
+  233  git clone git@github.com:atle-gang/top-foundations-projects.git
+  234  cd top-foundations-projects/
+  235  code .
+  236  git add .
+  237  git commit -m "Reset CSS page"
+  238  git push
+  239  sudo apt update && sudo apt upgrade
+  240  wget https://github.com/balena-io/etcher/releases/download/v1.18.12/balena-etcher_1.18.12_amd64.deb
+  241  wget https://github.com/balena-io/etcher/releases/download/v1.18.12/balena-etcher_1.18.11_amd64.deb
+  242  wget https://github.com/balena-io/etcher/releases/download/v1.18.12/balena-etcher_1.18.12_amd64.deb
+  243  sudo dpkg -i balena-etcher_1.18.12_amd64.deb
+  244  sudo apt --fix-broken install
+  245  dpkg --remove balenetcher
+  246  sudo dpkg --remove balenetcher
+  247  sudo dnf install git p7zip p7zip-plugins python3-pip python3-wxpython4
+  248  sudo apt install git p7zip-full python3-pip python3-wxgtk4.0 grub2-common grub-pc-bin parted dosfstools ntfs-3g
+  249  git clone https://github.com/WoeUSB/WoeUSB-ng.git
+  250  cd WoeUSB-ng
+  251  sudo pip3 install .
+  252  cd
+  253  sudo pip3 uninstall WoeUSB-ng
+  254  sudo rm /usr/share/icons/WoeUSB-ng/icon.ico     /usr/share/applications/WoeUSB-ng.desktop     /usr/local/bin/woeusbgui
+  255  sudo rmdir /usr/share/icons/WoeUSB-ng/
+  256  sudo add-apt-repository ppa:tomtomtom/woeusb -y
+  257  sudo apt install woeusb woeusb-frontend-wxgtk -y
+  258  woeusb -h
+  259  woeusbgui
+  260  sudo sh VentoyWeb.sh
+  261  cd Downloads/
+  262  ls
+  263  cd ventoy-1.0.97-linux/
+  264  sudo sh VentoyWeb.sh
+  265  ls
+  266  cd ventoy-1.0.97/
+  267  ls
+  268  sudo sh VentoyWeb.sh
+  269  cd student_work/
+  270  ls
+  271  cd reviews/
+  272  ls
+  273  cd iteration_6/
+  274  ls
+  275  mkdir toy-robot-4
+  276  mv reviews.txt ~/iteration_6
+  277  ls
+  278  cd toy-robot-4/
+  279  ls
+  280  touch reviews.txt
+  281  wtc-lms review_details shaky-white-proud-rich
+  282  wtc-lms login
+  283  wtc-lms review_details shaky-white-proud-rich
+  284  code .
+  285  git clone git@gitlab.wethinkco.de:root/grading_problem_burly-gamy-quote.git
+  286  python3 robot.py
+  287  python3 robot.py turtle
+  288  echo /usr/bin/bash
+  289  python3 robot.py
+  290  python3 robot.py turtle
+  291  python3 robot.py
+  292  python3 robot.py turtle
+  293  echo /usr/bin/bash
+  294  wtc-lms add_comment shaky-white-proud-rich "i rigirously tested the program to see if there might've been features that could break but the program managed to not fail with everything I threw at it. The turtle window loaded in a good amount of time, showing how efficient it was made. The issue i stumbled across are the tests that were written for both 'test_robot' and 'test_world'. The information about the obstacles placement was omitted and this was the reason that these some of these tests failed. It seems that the TDD practice of writing unit tests before implementing the code was not considered but I also fail to understand how the program was able to be submitted even though these unit tests failed but the main tests recognised the unit tests passed."
+  295  wtc-lms complete_review shaky-white-proud-rich
+  296  wtc-lms review_details fancy-three-plant-debt
+  297  cd student_work/reviews/iteration_6/toy_robot_4/
+  298  ls
+  299  git clone git@gitlab.wethinkco.de:root/grading_problem_tall-cruel-tie.git
+  300  cd grading_problem_tall-cruel-tie\(fancy-three-plant-debt\)/
+  301  code .
+  302  cd ..
+  303  wtc-lms add_comment fancy-three-plant-debt "The program ran as expected the issue came when I ran the tests and noticed that the tests for 'test_world' had no code. This causes the 'test_main' to pass. Since the tests were carried over from toy 3, this alludes to the fact that the tests were not created for toy 3 as well"
+  304  wtc-lms complete_review fancy-three-plant-debt
+  305  wtc-lms review_details best-large-pale-blank
+  306  git clone git@gitlab.wethinkco.de:root/grading_problem_heavy-pale-shut-loss.git
+  307  cd grading_problem_heavy-pale-shut-loss\(best-large-pale-blank\)/
+  308  code .
+  309  wtc-lms add_comment best-large-pale-blank "Upon running the program in text mode, it works perfecly after testing it and trying to see common pitfalls many people, including myself have come across. When I ran the turtle mode, it printed out the safety barrier and quickly crashed and give the following error, 'AttributeError: module 'world.obstacles' has no attribute 'obstacle_positions'. When looking at the obstacles module, there was no function or variable named 'obstacle_positions' and this resulted in not knowing whether the turtle module works or not. The other issue i noticed is that the tests for 'test_robot' were missing. The only thing in the module was an import statement and class declaration."
+  310  wtc-lms complete_review best-large-pale-blank
+  311  wtc-lms reviews
+  312  python3 robot.py turtle
+  313  cd Desktop/
+  314  git clone git@github.com:atle-gang/CalCLI.git
+  315  echo /usr/bin/bash
+  316  python3 robot.py mazerun
+  317  python3 robot.py
+  318  python3 robot.py turtle
+  319  echo /usr/bin/bash
+  320  python3 robot.py turtle hardcoded_maze
+  321  python3 robot.py turtle hardcorded_maze
+  322  python3 robot.py turtle hardcoded_maze
+  323  cd Desktop/
+  324  touch the-rise-of-apartheid-notes.txt
+  325  sudo apt update && sudo apt upgrade -y
+  326  sudo apt update
+  327  sudo apt upgrade -y
+  328  git config --list
+  329  wtc-lms login
+  330  wtc-lms start tight-jolly-dare
+  331  git clone git@gitlab.wethinkco.de:asethono023/submission_003-robot-5.git
+  332  cd submission_003-robot-5/
+  333  code .
+  334  cd student_work/
+  335  ls
+  336  cd iteration_6/
+  337  ls
+  338  cd ..
+  339  mkdir iteration_7
+  340  cd iteration_
+  341  cd iteration_7
+  342  git clone git@gitlab.wethinkco.de:asethono023/submission_003-robot-5.git
+  343  cd submission_003-robot-5/
+  344  code .
+  345  cd student_work/iteration_7/submission_003-robot-5/
+  346  git status
+  347  code .
+  348  python3 robot.py turtle maze
+  349  python3 robot.py maze
+  350  python3 robot.py turtle maze
+  351  cd student_work/iteration_7/submission_003-robot-5/
+  352  git status
+  353  git add .
+  354  git commit -m "Toy Robot 5"
+  355  git push
+  356  wtc-lms grade tight-jolly-dare
+  357  wtc-lms history tight-jolly-dare
+  358  wtc-lms
+  359  wtc-lms iteration-series
+  360  wtc-lms iteration_series
+  361  list
+  362  wtc-lms list
+  363  wtc-lms
+  364  wtc-lms reviews
+  365  wtc-lms current_iteration
+  366  wtc-lms topics
+  367  wtc-lms modules
+  368  wtc lms topics giant-green-cycle
+  369  wtc-lms topics giant-green-cycle
+  370  wtc-lms problems hurt-messy-quiet
+  371  wtc-lms history tight-jolly-dare
+  372  git config --list
+  373  git config user.name "Atlegang Sethono"
+  374  git config --global user.name "Atlegang Sethono"
+  375  git config --global user.email "atlegangcode@gmail.com"
+  376  java -version
+  377  sudo apt install default-jdk
+  378  java -version
+  379  mvn -version
+  380  sudo apt install maven
+  381  mvn -version
+  382  sudo apt install snapd
+  383  sudo snap install intellij-idea-community --classic
+  384  sudo apt install snapd
+  385  sudo snap install intellij-idea-community --classic
+  386  sudo apt install snapd
+  387  sudo snap install node --classic
+  388  code important.md
+  389  git status
+  390  git add .
+  391  git commit -m "delete file"
+  392  push
+  393  code important.md
+  394  cd ..
+  395  git clone 
+  396  git@github.com:Umuzi-org/Atlegang-Sethono-219-level-1-programming-katas-javascript.git
+  397  ls
+  398  git clone 
+  399  git@github.com:Umuzi-org/Atlegang-Sethono-219-level-1-programming-katas-javascript.git
+  400  git clone git@github.com:Umuzi-org/Atlegang-Sethono-219-level-1-programming-katas-javascript.git
+  401  cd Atlegang-Sethono-219-level-1-programming-katas-javascript/
+  402  code .
+  403  git checkout main
+  404  git pull
+  405  git checkout -b task/1
+  406  code task1.js
+  407  git add .
+  408  git commit -m "Complete task1"
+  409  git push
+  410  git push --set-upstream origin task/1
+  411  cd Desktop/
+  412  mkdir umuzi
+  413  cd umuzi/
+  414  git clone git@github.com:Umuzi-org/Atlegang-Sethono-606-tilde-project-tutorial-how-repo-projects-work-.git
+  415  ls
+  416  cd Atlegang-Sethono-606-tilde-project-tutorial-how-repo-projects-work-/
+  417  code .
+  418  git checkout main
+  419  git pull
+  420  git checkout -b task/2
+  421  code task2.js
+  422  git add .
+  423  git commit -m "Complete task2"
+  424  git push
+  425  git push --set-upstream origin task/2
+  426  git checkout main
+  427  git pull
+  428  git checkout -b task/3
+  429  code task3.js
+  430  git add .
+  431  git commit -m "Complete task3"
+  432  git push --set-upstream origin task/3
+  433  git checkout main
+  434  git pull
+  435  git checkout -b task/4
+  436  git branch
+  437  code task4.js
+  438  git checkout -b task/1
+  439  git checkout task/1
+  440  git checkout main
+  441  git branch
+  442  git checkout task/4
+  443  code task4.js
+  444  git status
+  445  git branch
+  446  git add .
+  447  git commit -m "Complete task4"
+  448  git push
+  449  git push --set-upstream origin task/4
+  450  git checkout main
+  451  git pull
+  452  git checkout -b task/5
+  453  code task5.js
+  454  git add .
+  455  git commit -m "Complete task5"
+  456  git push
+  457  git push --set-upstream origin task/5
+  458  git checkout main
+  459  git pull
+  460  git checkout -b task/6
+  461  code task6.js
+  462  git branch
+  463  git add .
+  464  git commit -m "Complete task6"
+  465  git push
+  466  git push --set-upstream origin task/6
+  467  git checkout main
+  468  git pull
+  469  git checkout -b task/7
+  470  code task7.js
+  471  git log
+  472  git config --list
+  473  git branch
+  474  git add .
+  475  git commit -m "Complete task7"
+  476  git push
+  477  git push --set-upstream origin task/7
+  478  code question_1.md
+  479  git add .
+  480  git commit -m "Uncomplete question 1"
+  481  git push
+  482  git add .
+  483  git commit -m "Uncomplete question 1"
+  484  git push
+  485  cd Desktop/umuzi/
+  486  ls
+  487  git clone git@github.com:Umuzi-org/Atlegang-Sethono-429-bootcamp-writing-assignment-.git
+  488  cd Atlegang-Sethono-429-bootcamp-writing-assignment-/
+  489  code .
+  490  cd Desktop/
+  491  mkdir git-basic-exercises
+  492  cd git-basic-exercises/
+  493  ls -a
+  494  git init
+  495  ls -a
+  496  touch README.md
+  497  ls -a
+  498  git status
+  499  git log
+  500  git add .
+  501  git commit -m "initial commit"
+  502  git log
+  503  nano README.md 
+  504  git status
+  505  git add .
+  506  git commit -m "second commit"
+  507  nano README.md 
+  508  git add .
+  509  git commit -m "third commit"
+  510  git log
+  511  git checkout c02fadf93af7869434150bde37423f96b4cb6ccb
+  512  cat README.md 
+  513  git checkout main
+  514  git checkout mast
+  515  git checkout master
+  516  cat README.md 
+  517  git branch
+  518  git checkout -b milkshake-flavours
+  519  git branch
+  520  nano milkshakes.md
+  521  git status
+  522  git add .
+  523  git commit -m "added initial flavours"
+  524  git log
+  525  git checkout master 
+  526  git log
+  527  git branch
+  528  git checkout history
+  529  git checkout -b history
+  530  git log
+  531  history > history.txt
+  532  git status
+  533  git add .
+  534  git commit -m "added history"
+  535  git log
+  536  git checkout milkshake-flavours
+  537  git log
+  538  nano README.md 
+  539  git branch
+  540  ls
+  541  nano milkshakes.md 
+  542  mkdir git-basic-exercises
+  543  cd git-basic-exercises/
+  544  ls -a
+  545  git init
+  546  ls -a
+  547  git status
+  548  touch README.md
+  549  ls -a
+  550  git status
+  551  git log
+  552  git add README.md 
+  553  git status
+  554  git commit -m "initial commit"
+  555  nano README.md
+  556  cat README.md 
+  557  git status
+  558  git add .
+  559  git commit -m "second commit"
+  560  nano README.md
+  561  git add .
+  562  git commit -m "second commit"
+  563  git commit -m "third commit"
+  564  git status
+  565  git add .
+  566  cd Desktop/
+  567  mkdir git-basic-exercises
+  568  cd git-basic-exercises/
+  569  ls -a
+  570  git init
+  571  ls -a
+  572  git status
+  573  touch README.md
+  574  ls -a
+  575  git status
+  576  git add .
+  577  git status
+  578  git commit -m "initial commit"
+  579  git log
+  580  nano README.md
+  581  cat README.md 
+  582  git status
+  583  git add .
+  584  git commit -m "second commit"
+  585  nano README.md
+  586  git add .
+  587  git commit -m "third commit"
+  588  git log
+  589  git checkout ecd96904a9183478e1f60a0b5f67e69157ddaef8
+  590  cat README.md 
+  591  git checkout master 
+  592  cat README.md 
+  593  git checkout -b milkshake-flavours
+  594  git branch
+  595  nano milkshakes.md
+  596  git status
+  597  git add .
+  598  git commit -m "added initial flavours"
+  599  git log
+  600  git checkout master 
+  601  git log
+  602  git checkout -b history
+  603  git log
+  604  history > history.txt

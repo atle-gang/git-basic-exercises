@@ -1,1 +1,1 @@
-Chocolate, Vanilla
+Chocolate, Vanilla, Chocolate Mint
